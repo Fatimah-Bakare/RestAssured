@@ -1,8 +1,11 @@
-package pojo;
+package pojoTest;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
+import deserializePojo.Api;
+import deserializePojo.GetCourse;
+import deserializePojo.WebAutomation;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,7 +13,7 @@ import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
-public class OAuthTestPojo {
+public class OAuthPojoTest {
 
     public static void main(String[] args) {
 
